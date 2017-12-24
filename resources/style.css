@@ -4,36 +4,40 @@ header {
   font-weight: bold;
   display: flex;
   justify-content:space-between;
+  align-items: center;
+  border-bottom: solid black 1px;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 
 
 }
 
 div .leftside {
+  align-items: center;
 
 }
 
-div .rightside {
-  
+.leftside span {
+  color: MediumAquamarine;
+
 }
+
 
 img {
 
 }
 
-#mytimes {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  color: MediumAquamarine;
-  justify-content: center;
-
+nav {
+  padding: 0px 40px;
 }
 
-
 span {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+  display: inline-block;
+  padding: 20px 20px;
+}
 
-
+span a {
+  color: black;
 }
