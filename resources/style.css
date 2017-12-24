@@ -1,30 +1,39 @@
 header {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  justify-content:space-between;
 
 
+}
 
+div .leftside {
+
+}
+
+div .rightside {
+  
 }
 
 img {
 
 }
 
-.logo {
+#mytimes {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
-  display: inline;
+  justify-content: center;
+
 }
 
-div .navigation {
+
+span {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
-  diplay: inline-flex;
-  justify-content:flex-end;
+
+
 }
