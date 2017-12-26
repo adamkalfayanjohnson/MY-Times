@@ -6,26 +6,30 @@ header {
   justify-content:space-between;
   align-items: center;
   border-bottom: solid black 1px;
-  height: 80px;
-  position: fixed;
+  background-color:white;
+  height: 90px;
+  position: static;
   width: 100%;
-  z-index: 1;
-
 
 }
 
-div .leftside {
+div.leftside {
+  display: inline;
   align-items: center;
+  border: solid black 1px;
+  margin-left: 10px;
 
 }
 
-.leftside span {
+div span {
   color: MediumAquamarine;
-
+  padding-bottom: 80px;
+  align-items: center;
 }
-
 
 img {
+  padding-top: 50px;
+  flex-direction:column;
 
 }
 
@@ -40,4 +44,26 @@ span {
 
 span a {
   color: black;
+}
+
+.column .large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column {
+display: flex;
+flex-direction: column wrap;
+justify-content: flex-end;
+padding: 100px, 20px, 10px, 20px;
+
+}
+.column .medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column .small {
+  width: 240px;
+  border: 1px solid black;
 }
