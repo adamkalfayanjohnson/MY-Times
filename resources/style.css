@@ -8,27 +8,27 @@ header {
   border-bottom: solid black 1px;
   background-color:white;
   height: 90px;
-  position: static;
+  position: fixed;
   width: 100%;
-
+  z-index: 1;
 }
 
-div.leftside {
-  display: inline;
-  align-items: center;
+.leftside {
+  display: flex;
   border: solid black 1px;
   margin-left: 10px;
+  align-items: center;
 
 }
 
-div span {
+.leftside span {
   color: MediumAquamarine;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   align-items: center;
 }
 
 img {
-  padding-top: 50px;
+  padding-top: 10px;
   flex-direction:column;
 
 }
